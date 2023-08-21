@@ -1,0 +1,31 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "description": "Understanding TypeScript Course Setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"webpack-dev-server",
+    "build": "webpack"
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Rodion Pozdniakov",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.6.2",
+    "jsdom": "^22.1.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webapack": "^1.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "parse5": "^7.1.2"
+  }
+}
